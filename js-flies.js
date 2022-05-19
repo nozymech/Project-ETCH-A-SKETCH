@@ -26,9 +26,6 @@ btn.addEventListener("click",()=>{
             square.addEventListener("mouseover", ()=> {
                 square.style.backgroundColor = "yellow";
             })
-            square.addEventListener("mouseout", ()=> {
-                square.style.backgroundColor = "";
-            })
         } )
     }
 })
